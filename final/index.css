@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 540px;
+    height: 960px;
+    border: 1px solid #aacdff;
+    border-radius: 20px;
+    box-shadow: 7px 7px 39px 0px #0068FF40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.error {
+    color: red;
+    font-size: 11px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0068ff;
+    width: 380px;
+    margin-bottom: 40px;
+}
+
+.inputbox {
+    display: flex;
+    width: 380px;
+    height: 60px;
+    border: 1px solid #0068ff;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.inputbox:focus {
+    outline: none;
+}
+
+.inputbox::placeholder {
+    color: #797979;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 0 18px 15px;
+}
+
+.phone__wrapper {
+    width: 380px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.phoneNumber {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+
+.phoneNumber:focus {
+    outline: none;
+}
+
+.token__wrapper {
+    width: 380px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.token, .token__timer {
+    font-size: 18px;
+    font-weight: 400;
+    color: #0068ff;
+}
+
+#token__button, #token__timer__button {
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 20px;
+    border: 1px solid #d2d2d2;
+    font-size: 16px;
+}
+
+#token__button {
+    background-color: #0068ff;
+    color: white;
+}
+
+#token__timer__button {
+    background-color: white;
+    color: #0068ff;
+}
+
+.location__wrapper {
+    position:relative;
+}
+
+.location {
+    margin-top: 20px;
+    width: 380px;
+    height: 60px;
+    border-radius: 7px;
+    border: 1px solid #d2d2d2;
+    font-size: 16px;
+    padding: 18px;
+    color: #797979;
+    cursor: pointer;
+}
+
+.location__img {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    right: 20px;
+    top: 43px;
+    cursor: pointer;
+}
+
+.location:focus {
+    outline: none;
+}
+
+.gender__wrapper {
+    width: 380px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.gender {
+    width: 70px;
+    text-align: center;
+}
+
+select {
+    appearance: none;
+}
+
+hr {
+    margin: 30px 0 20px 0;
+    border: 1px solid #e6e6e6;
+    width: 380px;
+}
+
+#signup__button {
+    width: 380px;
+    height: 75px;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0068ff;
+}
