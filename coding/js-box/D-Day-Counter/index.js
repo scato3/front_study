@@ -98,3 +98,4 @@ if (savedDate) {
   container.style.display = "none";
   messageContainer.innerHTML = "<h3>D-Day를 입력해 주세요.</h3>";
 }
+  
