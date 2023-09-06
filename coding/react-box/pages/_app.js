@@ -8,11 +8,9 @@ export default function App({ Component, pageProps }) {
   });
   return (
     <>
-      <div>app.js 컴포넌트 시작 부분</div>
       <ApolloProvider client={client}>
         <Component {...pageProps} />
       </ApolloProvider>
-      <div>app.js 컴포넌트 시작 부분</div>
     </>
   );
 }
