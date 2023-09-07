@@ -10,7 +10,7 @@ export default function StaticRoutingPage() {
     router.push("/section05/05-04-dynamic-routing-moved/2");
   };
   const onClickMove3 = () => {
-    router.push("/section05/05-04-dynamic-routing-moved/3");
+    router.push("/section05/05-04-dynamic-routing-moved /3");
   };
   return (
     <>
