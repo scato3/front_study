@@ -147,11 +147,12 @@ export const ButtonWrapper = styled.div`
 export const SubmitButton = styled.button`
   width: 180px;
   height: 52px;
-  background-color: #ffd600;
   color: black;
   font-size: 16px;
   font-weight: 500;
   border: none;
+
+  background-color: ${(props) => (props.isActive ? "yellow" : "none")};
 `;
 
 export const Error = styled.div`
